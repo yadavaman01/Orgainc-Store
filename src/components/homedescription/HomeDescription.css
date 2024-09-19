@@ -1,0 +1,81 @@
+/* .completescreen{
+    position: relative;
+
+} */
+/* .completescreen div img{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+} */
+.portion1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 76%;
+    margin: auto;
+    height: 760px;
+    /* gap: 10%; */
+    padding-top: 5px;
+}
+.portion1 div{
+    width: 50%;
+    /* height: 100%; */
+}
+.bigimage{
+    width: 607px;
+    height: 520px;
+}
+.sideofimage{
+    width: 50%;
+    padding: 70px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.sideofimage img{
+    object-fit: none;
+}
+
+.sideofimage div{
+    background-color: #7aab40;
+    width: 175px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    gap: 5px;
+    
+}
+.horizontalbar{
+    width: 100%;
+    height: 207px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: white;
+}
+.horizontalbar div{
+    width: 76%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+}
+.horizontalbar div div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #303030;
+    width: 285px;
+    height: 122px;
+}
+.first div {
+    display: flex;
+    flex-direction: column;
+}

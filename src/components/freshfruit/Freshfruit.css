@@ -1,0 +1,46 @@
+.freshfruit{
+    position: relative;
+    background-color: #f7f6f2;
+}
+.freshfruit img{
+    position: absolute;
+    top: -44px;
+    margin-left: 50%;
+}
+.freshfruitcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 76%;
+    margin: auto;
+    height: 760px;
+    /* gap: 10%; */
+    /* padding-top: 5px;
+    height: 360px;
+    width: 370px;
+    background: url("https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/product11-free-img.jpg"); */
+}
+.freshitems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.freshitem{
+    box-sizing: border-box;
+    padding: 35px;
+    height: 360px;
+    width: 370px;
+    background: url("https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/product11-free-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    /* transform: translateX(20px); */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* border: 2px solid black; */
+}

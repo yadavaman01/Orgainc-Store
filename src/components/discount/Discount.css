@@ -1,0 +1,26 @@
+.discount{
+    width: 100%;
+    height: 270px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    color: white;
+}
+.discountupper{
+    box-sizing: border-box;
+    background-color: black;
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding:  */
+
+}
+.nowportion{
+    background-color: #f7f6f2;
+    height: 100px;
+}

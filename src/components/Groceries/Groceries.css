@@ -1,0 +1,137 @@
+.everythingcontainer{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    width: 76%;
+    margin: auto;
+    /* height: 760px; */
+    /* gap: 10%; */
+    padding-top: 60px;
+
+
+    /* border: 2px solid blue; */
+}
+.everyleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 25%;
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+    padding-right: 30px;
+}
+.search{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 40px;
+}
+.search input{
+    height: 35px;
+    width: 80%;
+}
+.search div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 38px;
+    
+    background-color: #8bc24a;
+}
+.priceval{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 70px;
+}
+.priceval div{
+    width: 50px;
+    height: 35px;
+    /* display: flex;
+    justify-content: flex-end; */
+}
+.priceval div input{
+    height: 100%;
+    width: 100%;
+}
+
+.leftsomeproduct{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+.name{
+
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 10px;
+
+}
+.leftsomeproduct img{
+    /* cursor: pointer; */
+    height: 250px;
+    width: 100%;
+    margin-top: 50px;
+}
+.everyright{
+    box-sizing: border-box;
+    padding-left: 55px;
+    width: 75%;
+    border-left: 2px solid #dddddb;
+}
+.products{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+}
+.totalproduct{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+.totalproduct img{
+    box-sizing: border-box;
+    height: 300px;
+    width: 100%;
+    /* margin-top: 50px; */
+}
+.pages{
+    margin-top: 100px;
+    margin-bottom: 80px;
+    /* width: 30px;
+    height: 30px; */
+    display: flex;
+    gap: 10px;
+
+}
+.pages div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    
+    background-color: #8bc24a;
+}

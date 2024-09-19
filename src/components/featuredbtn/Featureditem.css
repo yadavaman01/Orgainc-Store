@@ -1,0 +1,13 @@
+.featuredcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    width: 76%;
+    margin: auto;
+    height: 150px;
+    /* height: 760px; */
+    /* gap: 10%; */
+    padding-top: 5px;
+}

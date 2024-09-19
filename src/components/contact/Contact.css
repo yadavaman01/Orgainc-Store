@@ -1,0 +1,27 @@
+.contact-head-container {
+    position: relative;
+    top: -2.5rem;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    width: 80%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+    /* border: 1px solid rgba(0, 0, 0, 0.089); */
+    height: 8rem;
+    border-radius: 4px;
+    background-color: white;
+    z-index: 1000;
+    font-weight: lighter;
+    font-size: 12px;
+  }
+  .about-head-item {
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    text-align: center;
+    width: 25%;
+  }
+  .about-head-item-text {
+    margin-top: 15%;
+  }

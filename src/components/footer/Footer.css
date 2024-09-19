@@ -1,0 +1,35 @@
+.Footer{
+    background-color: #000000;
+}
+.footercontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    width: 76%;
+    margin: auto;
+    /* height: 760px; */
+    /* gap: 10%; */
+    padding-top: 5px;
+    
+    color: white;
+}
+/* .footercontainer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.footerleft{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+    box-sizing: border-box;
+    padding-right: 20%;
+}
+.footerright{
+    width: 40%;
+}
